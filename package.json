@@ -1,0 +1,28 @@
+{
+  "name": "@slpw/modal",
+  "version": "1.0.2",
+  "description": "React Modal",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "module": "./dist/modal.esm.js",
+  "keywords": [
+    "react",
+    "modal"
+  ],
+  "author": "zidian257",
+  "peerDependencies": {
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "styled-components": "^4.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "rollup": "^1.22.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
